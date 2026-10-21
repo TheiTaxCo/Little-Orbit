@@ -1,0 +1,16 @@
+{
+  "id": "./",
+  "name": "Little Orbit — Play & Learn",
+  "short_name": "Little Orbit",
+  "description": "Five gentle learning adventures for children ages 3–5.",
+  "lang": "en-US",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f6f2",
+  "theme_color": "#126b60",
+  "icons": [
+    {"src": "./icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "./icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"}
+  ]
+}
