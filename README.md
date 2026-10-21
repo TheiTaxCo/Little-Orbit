@@ -1,4 +1,4 @@
-# Little Orbit · Version 2 · English & Spanish
+# Little Orbit · Version 2.1 · Female Spanish voice
 
 Five gentle learning games for ages 3–5. This release combines the iOS icon, Memory Garden progression, fifth-game, and bilingual updates in one package.
 
@@ -24,9 +24,12 @@ Open **For grown-ups → Language / Idioma** and choose **English** or **Spanish
 - The home screen and grown-up guidance also switch languages.
 - **Hear a sample / Escuchar una muestra** lets you test the selected voice.
 - Changing languages preserves the current board, answer, and earned stars.
-- Spanish speech prefers a Mexican Spanish voice when available, then another Spanish voice. English uses an English voice. The app never deliberately selects an English voice for Spanish text.
+- Spanish speech automatically prefers recognized female voices, prioritizing enhanced/natural versions and Mexican Spanish when available.
+- Open **For grown-ups → Spanish voice** (or **Para adultos → Voz en español**) to keep **Automatic · Female** or choose a voice and hear its sample. The choice is saved.
+- Automatic selection uses a shortlist of recognized female voice names because browser speech metadata has no gender field. Other Spanish voices are labeled Preview rather than assumed female. If there is no recognized female voice, the app asks you to enable one or preview and choose a voice; it does not silently substitute a male voice.
+- Spanish uses a natural pitch and a slightly slower reading pace for clarity. English behavior stays the same. Speech is never routed to an English voice while Spanish is selected.
 
-Speech uses the device/browser's available voices. If no matching voice is available, the overlay explains that a voice must be enabled on the device. In that case, the game remains playable with translated text. Voice availability and offline speech vary by device and browser. Actual pronunciation and playback should be checked on your daughter's device using the sample button.
+Speech uses the device/browser's available voices. If no matching voice is available, the overlay explains that a voice must be enabled on the device. In that case, the game remains playable with translated text. Voice availability, voice quality, and offline speech vary by device and browser. Voice packs available to the operating system are not always exposed by every browser. Actual pronunciation and playback should be checked on your daughter's device using the sample button.
 
 ## iPhone/iPad Home Screen icon
 
@@ -90,7 +93,7 @@ The game sends no player information or analytics. The device/browser controls s
 
 ## Validation
 
-The release passed 150 simulated rounds across five games, three ages, and two languages. Checks covered retries, matching, progression, duplicate answers, navigation, storage-disabled play, live language switching, Spanish vocabulary, voice language selection, and avoiding an English voice when Spanish is selected. Icon dimensions, relative asset links, manifest entries, workflow staging, and ZIP integrity were also checked.
+The release passed voice-selection checks for female preference, enhanced voice priority, male-only and unknown-voice lists, explicit selection, persistence, and delayed voice availability, plus 150 simulated rounds across five games, three ages, and two languages. Checks covered retries, matching, progression, duplicate answers, navigation, storage-disabled play, live language switching, Spanish vocabulary, voice language selection, and avoiding an English voice when Spanish is selected. Icon dimensions, relative asset links, manifest entries, workflow staging, and ZIP integrity were also checked.
 
 The workflow has not been run in your repository. Visual browser, touch, speech playback, and iOS Home Screen installation testing remain to be completed on your devices.
 

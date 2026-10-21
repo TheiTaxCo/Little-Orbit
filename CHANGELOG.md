@@ -1,5 +1,14 @@
 # Release notes
 
+## Version 2.1 · Female Spanish voice
+
+- Automatic Spanish speech now selects recognized female voice names and prefers enhanced/natural voices.
+- Added a Spanish voice picker and saved preference in the grown-up overlay.
+- Added guidance when no recognized female voice is available, without automatically substituting a male voice.
+- Set Spanish speech to natural pitch and a clear, slightly slower pace.
+- Expanded the Spanish voice sample.
+
+
 ## Version 2 · Bilingual
 
 - Added an English/Spanish language selector in For grown-ups.
